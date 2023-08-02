@@ -1,0 +1,25 @@
+*       {       font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+/*table   {text-align: left;}*/
+
+th, h2  {       color: rgba(96, 181, 211, 15);
+        }
+
+.tabla-nombre-y-foto    {       width: 98%;
+                        }
+
+.nombre-cv      {       font-size: 32px;
+                        text-align: left;
+                }
+
+.foto-cv        {       text-align: right;
+                }
+
+.presentacion   {       width: 80%;
+                        text-align: left;
+                }
+
+.tabla-datos-cv {       text-align: left;
+                        width: 60%;
+                }

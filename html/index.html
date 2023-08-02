@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <table class="tabla-nombre-y-foto">
+        <tr>
+            <th class="nombre-cv">
+                Victoria Badán
+            </th>
+            <th class="foto-cv">
+                <img src="../images/foto_cv_vb.png" alt="Foto CV" wdith="150px" height="150px">
+            </th>
+        </tr>
+    </table>
+    <br>
+    <table class="presentacion">
+        <tr>
+            <td>    
+                Me apasionan temas como la arquitectura y el desarrollo web. En cuanto a la arquitectura: realizar renders, dibujar planos,
+                proyectos ejecutivos. Por otra parte me interesan las tecnologías de la información y de la comunicación.
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <ul>
+        <li>
+            <a href="#ex_pro">
+                Experiencia profesional
+            </a>
+        </li>
+        <li>
+            <a href="#habilidades">
+                Habilidades y conocimientos
+            </a>
+        </li>
+        <li>
+            <a href="#educacion">
+                Educación
+            </a>
+        </li>
+        <li>
+            <a href="#redes">
+                Perfiles sociales
+            </a>
+        </li>
+        <li>
+            <a href="#contacto">
+                Contactar
+            </a>
+        </li>
+    </ul>
+    <hr>
+    <div id="ex_pro">
+        <h2>
+            Experiencia profesional
+        </h2>
+        <table class="tabla-datos-cv">
+            <tr>
+                <th>Empresa / Organización</th>
+                <th>Cargo</th>
+                <th>Localización</th>
+                <th>Desde-hasta</th>
+            </tr>
+            <tr> 
+                <td>Negocios Rurales</td>
+                <td>Administración</td>
+                <td>Canelones</td>
+                <td>Marzo 2015 - Marzo 2017</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div id="habilidades">
+        <h2>
+            Habilidades y conocimientos
+        </h2>
+        <ul>
+            <li>
+                <strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript.
+            </li>
+            <li>
+                <strong>Arquitectura:</strong> AutoCad, Revit, Archicad, Sketchup, Lumion, Illustrator, Photoshop.
+            </li>
+    </div>
+    <hr>
+    <div id="educacion">
+        <h2>
+            Educación
+        </h2>
+        <table class="tabla-datos-cv"> 
+            <tr>
+                <th>
+                    Título
+                </th>
+                <th>
+                    Entidad
+                </th>
+                <th>
+                    Promoción
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Desarrollo web
+                </td>
+                <td>
+                    Plan Ceibal (Jóvenes a programar)
+                </td>
+                <td>
+                    2023
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Arquitecta
+                </td>
+                <td>
+                    FADU (UdelaR)
+                </td>
+                <td>
+                    2023
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div id="redes">
+        <h2>
+            Perfiles sociales
+        </h2>
+        <p>
+            También puedes encontrarme en:
+        </p>
+        <ul>
+        
+            <li>
+                <a href="https://github.com/">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/">
+                    Linkedin
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div id="contacto">
+        <h2>
+            Contactar
+        </h2>
+        <form action="#" method="GET">
+            <label for="para">Para:</label>
+            <input type="text" name="para" id="para"><br>
+            <label for="tema">Temática:</label>
+            <select id="tema" name="tema">
+                    <option value="" hidden selected disabled>-- Elige un tema --</option>
+                    <option value="1">Consulta</option>
+                    <option value="2">Propuesta</option>
+                    <option value="3">Reporte</option>                    
+                    <option value="4">Otro</option>
+            </select><br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="asunto" id="asunto"><br>
+            <label for="cuerpo">Cuerpo:</label>
+            <textarea id="cuerpo" name="cuerpo"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
